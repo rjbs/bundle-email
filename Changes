@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Email
 
+0.04 Tue Aug  1 2006
+  - fix abstract, which previously had the wrong name
+
 0.03 Tue Feb 15 2005
 	- Removing braindead pass-through Build.PL file
 

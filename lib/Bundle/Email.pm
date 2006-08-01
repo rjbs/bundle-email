@@ -4,7 +4,7 @@ use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.03';
+  $VERSION = '0.04';
 }
 
 1;
@@ -13,11 +13,11 @@ __END__
 
 =head1 NAME
 
-Bundle::Devel - A bundle to install the main set of Email:: modules
+Bundle::Email - a bundle to install the main set of Email:: modules
 
 =head1 SYNOPSIS
 
-C<perl -MCPAN -e 'install Bundle::Devel'>
+  perl -MCPAN -e 'install Bundle::Devel'
 
 =head1 CONTENTS
 
