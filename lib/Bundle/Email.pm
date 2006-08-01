@@ -78,6 +78,12 @@ Bundle::Email installs pretty much all of the main Email modules that don't
 have giant cascading dependencies, like L<Email::Store> (which is a
 L<Class::DBI>-based thing).
 
+=head1 PERL EMAIL PROJECT
+
+This bundle is maintained by the Perl Email Project.
+
+  http://emailproject.perl.org/wiki/Bundle::Email
+
 =head1 SUPPORT
 
 All bugs should be filed via the CPAN bug tracker at
