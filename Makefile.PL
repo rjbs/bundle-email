@@ -2,8 +2,9 @@ use inc::Module::Install;
 
 name           ( 'Bundle-Email'                        );
 abstract       ( 'Installs the main set of Email:: modules' );
-author         ( 'Adam Kennedy<cpan@ali.as>'           );
+author         ( 'Ricardo SIGNES <rjbs@cpan.org>'      );
 version_from   ( 'lib/Bundle/Email.pm'                 );
+license        ( 'perl'                                );
 
 requires       ( 'perl'                     => '5.005' );
 requires       ( 'Email::Address'           => '0'     );
@@ -15,7 +16,6 @@ requires       ( 'Email::Date'              => '0'     );
 requires       ( 'Module::Pluggable'        => '0'     );
 requires       ( 'Email::Abstract'          => '0'     );
 requires       ( 'Email::MIME'              => '0'     );
-requires       ( 'Email::Simple::Headers'   => '0'     );
 requires       ( 'Email::Simple::Creator'   => '0'     );
 requires       ( 'Email::MIME::Modifier'    => '0'     );
 requires       ( 'Email::MIME::Creator'     => '0'     );

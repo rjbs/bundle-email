@@ -4,7 +4,7 @@ use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-  $VERSION = '0.040';
+  $VERSION = '0.042';
 }
 
 1;
@@ -38,8 +38,6 @@ Module::Pluggable        - Needed by Email::Abstract
 Email::Abstract          - Email conversion and compatibility
 
 Email::MIME              - MIME-based emails
-
-Email::Simple::Headers   - Working with headers
 
 Email::Simple::Creator   - Create simple emails
 
@@ -84,6 +82,16 @@ This bundle is maintained by the Perl Email Project.
 
   http://emailproject.perl.org/wiki/Bundle::Email
 
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Task::Email::PEP::All>
+
+=item * L<Task::Email::PEP::NoStore>
+
+=back
+
 =head1 SUPPORT
 
 All bugs should be filed via the CPAN bug tracker at
@@ -94,15 +102,12 @@ For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHORS
 
-Adam Kennedy (Maintainer), L<http://ali.as/>, cpan@ali.as
+Ricardo SIGNES (Maintainer), C<rjbs@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004 Adam Kennedy. All rights reserved.
-This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
+This code is copyright (C) 2004-2006, Adam Kennedy and Ricardo SIGNES. It is
+released under the same terms as perl itself. No claims are made, here, as to
+the copyrights of the software pointed to by this bundle.
 
 =cut
