@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::Email
 
+0.043 Tue Feb 27 2007
+  - fix synopsis, which previously had the wrong name
+
 0.040 Tue Aug  1 2006
   - fix abstract, which previously had the wrong name
 
