@@ -6,7 +6,6 @@ author         ( 'Ricardo SIGNES <rjbs@cpan.org>'      );
 version_from   ( 'lib/Bundle/Email.pm'                 );
 license        ( 'perl'                                );
 
-requires       ( 'perl'                     => '5.005' );
 requires       ( 'Email::Address'           => '0'     );
 requires       ( 'Email::MIME::Encodings'   => '0'     );
 requires       ( 'Email::MIME::ContentType' => '0'     );
@@ -32,6 +31,8 @@ requires       ( 'Email::Stuff'             => '0'     );
 
 build_requires ( 'File::Spec'               => '0.82'  );
 build_requires ( 'Test::More'               => '0.47'  );
+
+repository('http://github.com/rjbs/bundle-email');
 
 auto_install();
 

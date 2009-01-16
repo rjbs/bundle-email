@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::Email
 
+0.044     2009-01-16
+          deprecation notice
+          add repo info
+
 0.043 Tue Feb 27 2007
   - fix synopsis, which previously had the wrong name
 

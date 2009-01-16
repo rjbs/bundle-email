@@ -4,7 +4,7 @@ use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-  $VERSION = '0.043';
+  $VERSION = '0.044';
 }
 
 1;
@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Bundle::Email - a bundle to install the main set of Email:: modules
+Bundle::Email - (DEPRECATED) you want Task::Email::PEP::NoStore
 
 =head1 SYNOPSIS
 
